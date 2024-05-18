@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul>li a {
+        padding: 20px 20px 20px;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        padding: 15px; /* Sesuaikan padding untuk ukuran layar yang lebih kecil */
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #4C3658; /* Background color of the collapsed navbar */
+        padding-top: 10px; /* Adjust top padding */
+        overflow-x: hidden; /* Hide horizontal overflow */
+    }
+    .navbar-nav .nav-item {
+        margin: 5px 0; /* Adjust margin between navbar items */
+    }
+    .navbar-toggler {
+        border-color: #fff; /* Color of the toggle button */
+    }
+    .navbar-nav .nav-link {
+        padding: 10px 15px; /* Sesuaikan padding untuk ukuran layar yang lebih kecil */
+        width: calc(100% - 30px); /* Sesuaikan lebar tautan agar tetap muat dalam menu */
+    }
+}
